@@ -135,7 +135,7 @@ about
   font-weight: normal;
 }
 .txt p {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
 }
 .txt strong {
   border-bottom: solid 5px #E9D77D;
@@ -192,7 +192,7 @@ menu
   margin-bottom: 10%;
 }
 .fram_txt span {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 .fram_txt p {
   height: 20vh;
@@ -200,7 +200,6 @@ menu
 .fram_txt h4 {
   font-size: 2rem;
   margin-bottom: 5%;
-  font-weight: normal;
 }
 .fram_txt p strong {
   border-bottom: solid 3px #E9D77D;
