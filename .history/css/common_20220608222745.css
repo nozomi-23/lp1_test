@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  color: #333;
+  font-family: 'Noto Serif JP', serif;
+  word-break: break-all;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+li {
+  list-style: none;
+}
+.inner {
+  width: 85%;
+  margin: 0 auto;
+  background-color: aqua;
+}
+/* =====================
+共通パーツ
+=========================*/
+.title {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #555;
+  border-left: solid 3px #E9D77D;
+  padding-left: 2%;
+  margin-bottom: 8%;
+}
+.title span {
+  display: block;
+  font-size: 2rem;
+}
+.section {
+  border-top: solid 5px #E9D77D;
+  background-color: #A2B38B;
+  padding: 10% 0;
+}
+.section_bg_white {
+  background-color: #fff;
+}
+
+
+/* =====================
+header
+=========================*/
+.header_wrapper {
+  width: 100%;
+  background-color: #634B47;
+}
+.header_nav ul {
+  width: 100%;
+  display: table;
+}
+.header_nav ul li {
+  display: table-cell;
+  text-align: center;
+}
+.header_nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 8% 0;
+}
+.header_nav ul li a:hover {
+  opacity: 0.5;
+}
+.header_nav ul li a span {
+  display: block;
+  margin-top: 10%;
+}
+/* =====================
+main
+=========================*/
+.top_wrapper {
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+  background: url(../img/main.png) no-repeat center;
+  background-size: cover;
+  /* margin-bottom: 120px; */
+}
+.top_wrapper::after {
+  content: "";
+  position: relative;
+  width: 100%;
+}
+.top_inner {
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  z-index: 1;
+}
+.top_inner h1{
+  font-family: 'Lobster', cursive;
+  font-size: 15rem;
+  color: #fff;
+  opacity: 65%;
+}
+/* =====================
+news
+=========================*/
+.news_wrapper {
+  padding: 10% 0;
+}
+.news_txt table{
+  margin: 0 auto;
+  background-color: #E9D77D;
+  font-size: 1.5rem;
+}
+.news_txt tr {
+  border-top: solid 1px;
+}
+.news_txt th {
+  padding: 20px 100px 20px 0;
+  font-weight: normal;
+}
+.news_txt td {
+  padding: 20px 100px 20px 0;
+}
+/* =====================
+about
+=========================*/
+
+.txt h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+.txt p {
+  font-size: 1.5rem;
+}
+.txt strong {
+  border-bottom: solid 5px #E9D77D;
+}
+.about_img_1 {
+  position: relative;
+}
+.about_img_1::after {
+  position: absolute;
+  content: "";
+  background: url(../img/about_1.png) no-repeat center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+}
+.about_img_2 {
+  position: relative;
+}
+.about_img_2::after {
+  position: absolute;
+  content: "";
+  background: url(../img/about_2.png) no-repeat center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  
+}
+.about_descript {
+  width: 42%;
+}
+.about_descript_right {
+  position: relative;
+  left: 58%;
+}
+/* =====================
+menu
+=========================*/
+.fram_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.fram {
+  width: 33.3333%;
+  background-color: #E4E9BE;
+  margin: 0 2%;
+  padding: 55px 30px;
+}
+.photo{
+  width: 100%;
+  height: auto;
+  margin-top: 25%;
+  margin-bottom: 10%;
+}
+.fram_txt span {
+  font-size: 1.5rem;
+}
+.fram_txt h4 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 5%;
+}
+.fram_txt p strong {
+  border-bottom: solid 3px #E9D77D;
+}
+.sub_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555;
+  position: relative;
+}
+.sub_title::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  background-color: #555;
+  top: 50%;
+  left: 30%;
+}
+.sub_title p {
+  position: relative;
+  padding-right: 40%;
+}
+.time {
+  text-align: center;
+  padding-top: 1rem;
+}
+/* =====================
+access
+=========================*/
+.botton {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #E9D77D;
+  width: 25%;
+  padding: 1.5%;
+  border-radius: 10px;
+}
+.botton:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.botton a {
+  font-size: 1.5rem;
+}
+/* =====================
+footer
+=========================*/
+.footer_wrapper {
+  border-top: solid 5px #E9D77D;
+  background-color: #634B47;
+}
+.copyriter {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+  font-size: 1.5rem;
+}
